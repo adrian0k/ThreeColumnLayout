@@ -40,6 +40,47 @@ header a{font-size:.80em;}
 header a:link, header a:visited {color:#ffffff;}
 header a:focus, header a:hover{color:#eeeeee;}
 
+ul li a
+{
+  background: url(sprite.png) no-repeat;
+    display: block;
+  height: 42px;
+}
+
+.home a{
+  background-position: -10px 0;
+}
+.home a:hover
+{
+  background-position: -10px -47px;
+}
+
+.services a{
+  background-position: -131px 0;
+}
+.services a:hover
+{
+  background-position: -136px -47px;
+}
+
+.contact a
+{
+  background-position: -260px 0px;
+}
+.contact a:hover
+{
+    background-position: -252px -47px;
+}
+
+
+.hir
+{
+  text-indent: 100%;
+  white-space: nowrap;;
+  overflow: hidden;
+  display: block;
+}
+
 nav
 {
   float:left;
@@ -72,7 +113,7 @@ nav img
 main
 {
   margin: 0 210px 0 160px;
-  padding: 1px 10px 20px 10px;
+  padding: 1px 10px 20px 10px;
   background-color: #ffffff;
   color: #006600;
 }
